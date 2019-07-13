@@ -34,7 +34,7 @@ setInterval(() =>{
     let date = new Date();
     let minute = date.getMinutes();
 
-    hourAngle = (minute > 12) ? hourAngle + (6 * (Math.floor(minute/12))) : hourAngle;
+    let newHourAngle = (minute > 12) ? hourAngle + (6 * (Math.floor(minute/12))) : hourAngle;
 
-    hourHand.style.transform = `translate(-50%, -50%) rotate(${hourAngle}deg)`;
-},720000);
+    hourHand.style.transform = `translate(-50%, -50%) rotate(${newHourAngle}deg)`;
+},60000);
