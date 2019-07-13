@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+}
+
+#clock-div{
+    height: 80vh;
+    width: 45vw;
+    background: goldenrod;
+    border: 1px solid black;
+    margin-top: 10vh;
+    margin-left: 25vw;
+    border-radius: 20px;
+}
+
+#inner-div{
+    height: 95%;
+    width: 90%;
+    background: #404040;
+    border: 1px solid black;
+    margin-top: 2%;  
+    margin-left: 5%;
+    border-radius: 50px;
+    font-size: 2em;
+    display: block;
+    position: relative;
+}
+
+#center{
+    background: black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+}
+
+#list{
+    position: absolute;
+    list-style: none;
+    color: goldenrod;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#list li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    position: absolute;
+}
+
+#num1{
+    transform: rotate(30deg) translate(0, -570%) rotate(-30deg);
+}
+#num2{
+    transform: rotate(60deg) translate(0, -570%) rotate(-60deg);
+}
+#num3{
+    transform: rotate(90deg) translate(0, -570%) rotate(-90deg);
+} 
+#num4{
+    transform: rotate(120deg) translate(0, -570%) rotate(-120deg);
+}
+#num5{
+    transform: rotate(150deg) translate(0, -570%) rotate(-150deg);
+}
+#num6{
+    transform: rotate(180deg) translate(0, -570%) rotate(-180deg);
+}
+#num7{
+    transform: rotate(210deg) translate(0, -570%) rotate(-210deg);
+}
+#num8{
+    transform: rotate(240deg) translate(0, -570%) rotate(-240deg);
+}
+#num9{
+    transform: rotate(270deg) translate(0, -570%) rotate(-270deg);
+}
+#num10{
+    transform: rotate(300deg) translate(0, -570%) rotate(-300deg);
+}
+#num11{
+    transform: rotate(330deg) translate(0, -570%) rotate(-330deg);
+}
+#num12{
+    transform: translate(0, -570%);
+}
+
+#minute-hand{
+    background: goldenrod;
+    margin: 0;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    width: 2%;
+    border: 1px solid black;
+    transform-origin: bottom center;
+}
+
+#hour-hand{
+    background: goldenrod;
+    margin: 0;
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    width: 2%;
+    border: 1px solid black;
+    transform-origin: bottom center;
+}
+
+#second-hand{
+    background: red;
+    margin: 0;
+    position: absolute;
+    bottom: 19%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 0.6%;
+    transform-origin: 100% 87.5%;
+}
+
+
+
+
+
